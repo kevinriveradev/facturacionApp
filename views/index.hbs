@@ -1,0 +1,39 @@
+<h1>Bienvenido a tu facturador</h1>
+<form  method="post" action="/pdf" >
+    
+    <div class="factura">
+        <label>Sistema de facturacion:</label>
+        <input type="number" name="numero" value="" placeholder="Numero de factura" />
+        <input type="date" name="fecha" />
+    </div>
+    
+    <div class="formularioDatosCliente">
+        <label>Datos del cliente: </label><br />
+        <input placeholder="Cliente" maxlength="20" name="cliente" />
+        <input placeholder="NIF" maxlength="20" name="nif" />
+        <input placeholder="Domicilio" maxlength="20" name="domicilio" />
+        <input placeholder="CP / Municipio / Provincia" maxlength="20" name="cp" />
+        <input placeholder="Telefono" maxlength="20" name="telefono" />
+        <input placeholder="Correo electronico" maxlength="20" name="email" />
+    </div>
+    
+    <div class="FormularioItems">
+        <label>Items de la factura</label>
+        <textarea name="item1" placeholder="ITEM 1"></textarea>
+        <textarea name="item2" placeholder="ITEM 2"></textarea>
+        <textarea name="item3" placeholder="ITEM 3"></textarea>
+        <textarea name="item4" placeholder="ITEM 4"></textarea>
+        <textarea name="item5" placeholder="ITEM 5"></textarea>
+        <textarea name="item6" placeholder="ITEM 6"></textarea>
+    </div>
+    <div class="formularioCobro">
+        <label>Datos de cobro</label>
+        <br />
+        <input placeholder="Suma" name="SUMA" />
+        <input type="number" placeholder="Porcentaje de iva" name="IVA" />
+    </div>
+    <div class="envio">
+        <input type="submit" value="Generar PDF" />
+    </div>
+    
+</form>

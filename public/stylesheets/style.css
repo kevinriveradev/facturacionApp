@@ -1,0 +1,65 @@
+body {
+    padding: 50px;
+    display:flex;
+    flex-direction:column;
+    width:100vw;
+    align-items:center;
+    overflow-x:hidden;
+    height:100vh;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background: rgba(179,220,237,1);
+}
+.factura {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-around;
+    padding: 5%;
+    height: 10vh;
+    width: 40vw;
+}
+.formularioDatosCliente{
+    display:flex;
+    flex-direction:column;
+    background-color:white;
+    justify-content:space-around;
+    padding:5%;
+    height:25vh;
+    width:40vw;
+}
+.FormularioItems {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-around;
+    padding: 5%;
+    height: 40vh;
+    width: 40vw;
+}
+.formularioCobro {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+    justify-content: space-around;
+    padding: 5%;
+    height: 15vh;
+    width: 40vw;
+}
+.envio {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: space-around;
+    padding: 5%;
+    height: 5vh;
+    width: 40vw;
+}
+a {
+    color: #00B7FF;
+}
+
+label{
+    color:#000000;
+    font-weight:bold;
+}
